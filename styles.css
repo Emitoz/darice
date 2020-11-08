@@ -40,7 +40,7 @@ body{
 .top button {
     padding: 8px 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 6px 5px 50px 0px rgba(0,0,0,0.12);
     color: crimson;
     background: #fff;
@@ -141,7 +141,7 @@ button#music-button{
     bottom: 20px;
     left: 20px;
     border: none;
-    background: #29E3AE;
+    background: #15c593;
     color: #fff;
     padding: 6px 12px;
     font-size: 10px;

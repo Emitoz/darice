@@ -32,7 +32,7 @@ musicButton.addEventListener('click', (e) => {
         musicButton.innerHTML = 'stop music';
     } else {
         music.pause();
-        musicButton.style.background = '#29E3AE';
+        musicButton.style.background = '#15c593';
         musicButton.innerHTML = 'play music';
     }
 });
