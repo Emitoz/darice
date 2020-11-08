@@ -25,7 +25,7 @@ const waitForGenie = () => {
 }
 
 musicButton.addEventListener('click', (e) => {
-    if(music.paused){
+    if(music.paused || music.ended){
         music.volume = 0.6;
         music.play();
         musicButton.style.background = 'crimson';
