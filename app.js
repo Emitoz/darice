@@ -3,6 +3,8 @@ const myModal = document.querySelector('.my-modal');
 const genie = document.querySelector('#genie');
 const result = document.querySelector('#result');
 const closeBtn = document.querySelector('#close');
+const music = document.querySelector('#music');
+const musicButton = document.querySelector('#music-button');
 
 wishBtn.addEventListener('click', (e) => {
     myModal.style.display = "block";
@@ -21,3 +23,16 @@ const waitForGenie = () => {
         result.style.display = "block";
     }, 2000);
 }
+
+musicButton.addEventListener('click', (e) => {
+    if(music.paused){
+        music.volume = 0.6;
+        music.play();
+        musicButton.style.background = 'crimson';
+        musicButton.innerHTML = 'stop music';
+    } else {
+        music.pause();
+        musicButton.style.background = '#29E3AE';
+        musicButton.innerHTML = 'play music';
+    }
+});

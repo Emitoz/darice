@@ -132,6 +132,25 @@ footer a {
     padding: 2px 11px;
 }
 
+.music {
+    display: none;
+}
+
+button#music-button{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border: none;
+    background: #29E3AE;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 10px;
+    text-transform: uppercase;
+    box-shadow: 6px 5px 50px 0px rgba(0,0,0,0.12);
+    outline: none;
+    border-radius: 20px;
+    z-index: 2;
+}
 
 @media screen and (max-width: 768px){
     .top {
